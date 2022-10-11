@@ -1,0 +1,29 @@
+{
+  "name": "mongodb_sajat",
+  "version": "1.0.0",
+  "description": "This is for testing and practice purposes",
+  "main": "app.ts",
+  "scripts": {
+    "compile": "tsc && node ./dist/app.js",
+    "dev-start": "nodemon --watch \"./src/**/*\" --ext ts --exec \"npm run compile\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@typegoose/auto-increment": "^1.8.0",
+    "@typegoose/typegoose": "^9.12.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.1",
+    "express-async-errors": "^3.1.1",
+    "mongoose": "^6.6.3"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.12",
+    "@types/express": "^4.17.14",
+    "@types/node": "^18.8.3",
+    "nodemon": "^2.0.20",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.4"
+  }
+}
